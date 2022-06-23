@@ -175,3 +175,13 @@ img {
     font-size: var(--hero-secondary-text-size);
     font-weight: var(--hero-main-text-weight);
 }
+
+footer {
+    padding: 50px 200px;
+    background-color: var(--dark-bg-color);
+}
+
+footer p {
+    color: var(--hero-main-text-color);
+    text-align: center;
+}
