@@ -144,3 +144,34 @@ img {
     font-style: normal;
     font-weight: bold;
 }
+
+.cto-section {
+    padding: 100px 200px;
+}
+
+.cto-card {
+    background-color: var(--button-color);
+    padding: 50px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cto-text {
+    color: var(--hero-main-text-color);
+}
+
+.cto-text h2, .cto-text p {
+    margin-bottom: 10px;
+}
+
+.cto-card button {
+    padding: .4em 2em;
+    background-color: rgba(255, 255, 255, 0);
+    border: var(--header-logo-text-color) 2px solid;
+    border-radius: 5px;
+    color: var(--hero-main-text-color);
+    font-size: var(--hero-secondary-text-size);
+    font-weight: var(--hero-main-text-weight);
+}
