@@ -26,3 +26,35 @@
     --quote-text-style: italic;
     --quote-text-color: #1F2937; 
 }
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: var(--dark-bg-color);
+    align-items: center;
+}
+
+header p {
+    font-size: var(--header-logo-text-size);
+    color: var(--header-logo-text-color);
+    font-weight: var(--hero-main-text-weight);
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    color: var(--hero-secondary-text-color);
+    text-decoration: none;
+}
